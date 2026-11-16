@@ -1,5 +1,32 @@
 # Changelog
 
+## [0.18.0](https://github.com/khiops/lasterm/compare/v0.17.2...v0.18.0) (2026-11-16)
+
+
+### Features
+
+* paste more than 64 KiB, with end-to-end flow control ([#1014](https://github.com/khiops/lasterm/issues/1014)) ([#1020](https://github.com/khiops/lasterm/issues/1020)) ([fe2d319](https://github.com/khiops/lasterm/commit/fe2d3198cb3cadb40aad8e1cc5acb4445e1cabcc))
+
+
+### Bug Fixes
+
+* **web:** keep a tab's rename, menu and drag on that tab when another closes ([#1024](https://github.com/khiops/lasterm/issues/1024)) ([63cb5fb](https://github.com/khiops/lasterm/commit/63cb5fbef7c43a4e3fe0f27e6d474526f339e653)), closes [#990](https://github.com/khiops/lasterm/issues/990)
+* **web:** pick a ~/.ssh/config entry with the method the import stores ([#1021](https://github.com/khiops/lasterm/issues/1021)) ([3f54b4e](https://github.com/khiops/lasterm/commit/3f54b4e15efefa9a5332bdb7cb53de52219189e3)), closes [#1009](https://github.com/khiops/lasterm/issues/1009)
+* **web:** re-apply a pane's host theme and cursor blink when they change ([#1025](https://github.com/khiops/lasterm/issues/1025)) ([331fb68](https://github.com/khiops/lasterm/commit/331fb68d4ad4bd2cb0e0f73ada09a3fc89d5061d)), closes [#997](https://github.com/khiops/lasterm/issues/997) [#998](https://github.com/khiops/lasterm/issues/998)
+
+
+### Tests
+
+* **agent:** type a second byte a moment after a closed paste, past conhost's held input ([#1031](https://github.com/khiops/lasterm/issues/1031)) ([2a323a9](https://github.com/khiops/lasterm/commit/2a323a97139bc7e2a147e5bb6a2968a774ea3368))
+
+
+### Documentation
+
+* **root:** add Store news for a rename or menu kept on its tab ([#990](https://github.com/khiops/lasterm/issues/990)) ([#1026](https://github.com/khiops/lasterm/issues/1026)) ([2e53499](https://github.com/khiops/lasterm/commit/2e534995a4335eb5d3ed213292b3ea960e94213b))
+* **root:** Store news for pastes up to 16 MiB ([#1014](https://github.com/khiops/lasterm/issues/1014)) ([#1029](https://github.com/khiops/lasterm/issues/1029)) ([640d7ce](https://github.com/khiops/lasterm/commit/640d7ce4cdf86d726577db524da3c0711b153a8e))
+* **root:** Store news for terminal theme and cursor applied live ([#997](https://github.com/khiops/lasterm/issues/997), [#998](https://github.com/khiops/lasterm/issues/998)) ([#1028](https://github.com/khiops/lasterm/issues/1028)) ([21c6283](https://github.com/khiops/lasterm/commit/21c6283becc580c7bcec0a644186568055d406fc))
+* **root:** Store news for the ~/.ssh/config picker selecting the agent ([#1023](https://github.com/khiops/lasterm/issues/1023)) ([6736daf](https://github.com/khiops/lasterm/commit/6736daf5c5c01c12ba3ef5e55ce961579adfa333))
+
 ## [0.17.2](https://github.com/khiops/lasterm/compare/v0.17.1...v0.17.2) (2026-11-16)
 
 
